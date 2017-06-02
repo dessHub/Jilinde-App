@@ -1,0 +1,24 @@
+{
+  "name": "codecoin-ussd",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "author": "dessHub",
+  "description": "USSD AfricasTalking API for codecoin, originally from Ian Juma <wjuma@africastalking.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "africastalking": "0.0.5",
+    "body-parser": "^1.16.1",
+    "express": "^4.0.0",
+    "forever": "^0.15.1",
+    "forever-monitor": "^1.7.0",
+    "mongoose": "^4.8.3",
+    "morgan": "^1.8.1",
+    "redis": "*"
+  }
+}
